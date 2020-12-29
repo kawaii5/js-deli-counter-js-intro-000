@@ -18,6 +18,6 @@ function currentLine(line) {
     return str;
   }
   str += ": ";
-  
+
   return str;
 }
