@@ -15,7 +15,7 @@ function currentLine(line) {
   let str = "The line is currently: ";
   let len = line.length;
   if(len == 0) {
-    str.replace(": ", " empty.");
+    str = str.replace(": ", " empty.");
     return str;
   }
   for(let i = 0; i < len; ++i) {
