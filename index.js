@@ -19,7 +19,7 @@ function currentLine(line) {
   }
   str += ": ";
   for(let i = 0; i < len; ++i) {
-    str += i+1 + ". " + line[i];
+    str += (i + 1) + ". " + line[i];
     if(i < len - 1) {
       str += ", ";
     }
