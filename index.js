@@ -18,4 +18,5 @@ function currentLine(line) {
   } else {
     str += " empty.";
   }
+  return str;
 }
