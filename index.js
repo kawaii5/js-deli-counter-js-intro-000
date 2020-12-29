@@ -10,3 +10,12 @@ function nowServing(line) {
   }
   return "There is nobody waiting to be served!";
 }
+
+function currentLine(line) {
+  let str = "The line is currently";
+  if(line.length > 0) {
+    str += ": ";
+  } else {
+    str += " empty.";
+  }
+}
