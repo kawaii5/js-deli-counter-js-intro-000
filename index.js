@@ -16,7 +16,7 @@ function currentLine(line) {
   let len = line.length;
   if(len == 0) {
     str += " empty.";
-    return str;
+    return str + " empty.";
   }
   str += ": ";
   for(let i = 0; i < len; ++i) {
