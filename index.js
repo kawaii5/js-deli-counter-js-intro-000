@@ -17,6 +17,7 @@ function currentLine(line) {
     str += ": ";
   } else {
     str += " empty.";
+    return str;
   }
   return str;
 }
