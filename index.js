@@ -14,14 +14,14 @@ function nowServing(line) {
 function currentLine(line) {
   let str = "The line is currently";
   let len = line.length;
-  if(line.length == 0) {
+  if(len == 0) {
     str += " empty.";
     return str;
   }
   str += ": ";
-  for(let i = 0; i < line.length; ++i) {
+  for(let i = 0; i < len; ++i) {
     str += i+1 + ". " + line[i];
-    if(i < line.length - 1) {
+    if(i < len - 1) {
       str += ", ";
     }
   }
