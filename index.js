@@ -12,9 +12,10 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  let str = "The line is currently";
+  let str = "The line is currently: ";
   let len = line.length;
   if(len == 0) {
+    str.replace(": ", " empty.")
     return str + " empty.";
   }
   str += ": ";
