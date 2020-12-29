@@ -13,11 +13,11 @@ function nowServing(line) {
 
 function currentLine(line) {
   let str = "The line is currently";
-  if(line.length > 0) {
-    str += ": ";
-  } else {
+  if(line.length == 0) {
     str += " empty.";
     return str;
   }
+  str += ": ";
+  
   return str;
 }
