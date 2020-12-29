@@ -18,6 +18,9 @@ function currentLine(line) {
     return str;
   }
   str += ": ";
+  for(let i = 0; i < line.length; ++i) {
+    str += i+1 + ". " + line[i] + ", "
+  }
 
   return str;
 }
